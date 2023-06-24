@@ -1,0 +1,71 @@
+@media screen and (max-width: 769px){
+  #main-campeira > h1 {
+    padding:  1em 0;
+    font-size: 1.4em;
+  }
+
+  h2{
+    padding: 1em 0;
+    font-size: 1.2em;
+  }
+
+  .conteudo {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+  }
+
+  h3 {
+    margin-top: 1em;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #main-campeira{
+    width: 100vw;
+  }
+
+  #main-campeira > h1 {
+    padding:  0.8em 0;
+    font-size: 1.2em;
+  }
+
+  h2{
+    padding: 0.8em 0;
+    font-size: 1em;
+  }
+
+  .conteudo {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+  }
+
+  p {
+    padding: 0 1em;
+    text-indent: 0.5em;
+  }
+
+  .main-campeira__campeira-gallery {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #76b897;
+  }
+
+  .main-campeira__campeira-gallery__photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(8em, 1fr));
+    margin-top: 1.4em;
+    grid-column-gap: auto;
+    grid-row-gap: 0.8em;
+    width: 90%;
+    justify-items: center;
+    padding: 1em 0;
+  }
+
+  h3 {
+    margin-top: 0.8em;
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,35 @@
+/*reponsividade - modelos responsivos para tablet de 768px
+e celulares com 480px, o modo landascape deve ser implementado mais para frente*/
+/**modo celular configuração de 480px
+*/
+@media screen and (max-width: 480px){
+  .photo-gallery {
+    display: flex;
+    width: 8em;
+    height: 8em;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.8px 1.2px 2px rgba(0, 0, 0, 0.407);
+  }
+
+  .photo-gallery__img {
+    display: flex;
+    width: 7em;
+    height: 7em;
+
+  }
+
+  .photo-gallery__img:hover {
+    width: 15em;
+    height: 15em;
+    margin: 0;
+    position: absolute;
+    top: auto;
+    border-radius: 1em;
+    border: 3px solid black;
+    box-shadow: 1px 2px 4px #ff7f50;
+    transition: all 1s ease-in-out;
+  }
+
+}

@@ -1,0 +1,90 @@
+/*reponsividade - modelos responsivos para tablet de 768px
+e celulares com 480px, o modo landascape deve ser implementado mais para frente*/
+/**modo tablet configuração de 769px
+*/
+@media screen and (max-width: 769px) {
+  #menu-bar {
+    display: flex;
+  }
+
+  #menu_resp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 3em;
+    transition: 2s;
+    background-color: #121212c9;
+  }
+  
+  .menu_resp_barraSuperior{
+    display: block;
+    width: 100%;
+  }
+  
+  button{
+    display: block;
+    width: 3em;
+    height: 3em;
+    padding: 0px;
+    margin: 0.2em;
+    border: none;
+    background-color: transparent;
+  }
+  img{
+    display: flex;
+    width: 2.5em;
+    height: 2.5em;
+  }
+  
+  .menu-resp-menu{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: 2em;
+  }
+  
+  .menu-resp-menu-li{
+    display: block;
+    height: 2em;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+  }
+  
+  .menu-resp-menu-li-a {
+    font-size: 1.5em;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    color: #e66e05;
+    text-shadow: 2px 1px 4px black;
+  }
+  
+  a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: #e66e05;
+    text-shadow: 2px 1px 4px black;
+  }
+  
+  .menu-resp-submenu{
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    margin-left: 1em;
+  }
+  
+  .menu-resp-submenu-li{
+    display: block;
+    height: 1em;
+    font-size: 1em;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-top: 0.5em;
+
+  }
+}

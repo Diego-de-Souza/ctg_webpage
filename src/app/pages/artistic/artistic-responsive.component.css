@@ -1,0 +1,113 @@
+@media screen and (max-width: 769px){
+  #main-artistic > h1 {
+    padding:  1em 0;
+    font-size: 1.4em;
+  }
+
+  h2{
+    padding: 1em 0;
+    font-size: 1.2em;
+  }
+
+  .conteudo {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+  }
+
+  h3 {
+    margin-top: 1em;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width:480px){
+  #main-artistic{
+    width: 100vw;
+  }
+
+  #main-artistic > h1 {
+    padding:  0.8em 0;
+    font-size: 1.2em;
+  }
+
+  h2{
+    padding: 0.8em 0;
+    font-size: 1em;
+  }
+
+  .conteudo {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+  }
+
+  p {
+    padding: 0 1em;
+    text-indent: 0.5em;
+  }
+
+  .premiacao {
+    padding-left: 4em;
+    font-weight: 800;
+  }
+
+  .main-artistic__adulta-awards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../../assets/img/Comon/imagem_CTG.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .main-artistic__adulta-awards__trophies{
+    grid-template-columns: repeat(auto-fill,minmax(5em, 1fr));
+    margin-top: 2em;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    width: 95%;
+    padding: 1em 1em;
+  }
+
+  .main-artistic-invernadas-coordenacao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 2em;
+  }
+
+  h3 {
+    margin-top: 0.8em;
+    font-size: 1em;
+  }
+
+  .main-artistic-invernadas-coordenacao__descricao {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .main-artistic__adulta-gallery {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #76b897;
+  }
+
+  .main-artistic__adulta-gallery__photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(8em, 1fr));
+    margin-top: 1.4em;
+    grid-column-gap: auto;
+    grid-row-gap: 0.8em;
+    width: 90%;
+    justify-items: center;
+    padding: 1em 0;
+  }
+}

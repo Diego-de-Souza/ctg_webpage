@@ -1,0 +1,15 @@
+.private_policy{
+  display: flex;
+  flex-direction: column;
+  padding: 4em;
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+}
+
+p{
+  text-indent: 2em;
+  text-align: justify;
+}

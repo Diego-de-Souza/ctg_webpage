@@ -1,0 +1,12 @@
+.photo-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.photo-card__img {
+  border-radius: 1em;
+  width: 90%;
+  border: 0.2px solid coral;
+}

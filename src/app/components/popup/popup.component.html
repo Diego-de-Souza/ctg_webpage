@@ -1,0 +1,20 @@
+<div class="cookies-container" [ngStyle]="{'display': display}">
+  <div class="cookies-section">
+    <div class="cookies-logotipo">
+      <img src="../../../assets/img/Home/logo_ranchodasaudade.png" alt="" srcset="">
+    </div>
+    <div class="cookies-content">
+      <p>Caro usuário nosso site, https://ctgranchodasaudade.com.br usa cookies e outras tecnologias relacionadas (por conveniência todas as tecnologias são referidas como “cookies”). No documento abaixo informamos sobre o uso de cookies em nosso site.</p>
+      <p>Saiba mais clicando no link: <a
+        [routerLink]="['/Politica_de_privacidade']"
+        [routerLinkActive]="['actived']"
+        [routerLinkActiveOptions]="{exact: true}"
+        (click)="fechaPopup()">Politica de Privacidade</a></p>
+      <div class="cookies-button">
+        <button class="cookies-accept btn_alternative" (click)="fechaPopup()">Aceito</button>
+        <button class="cookies-reject btn_alternative" (click)="fechaPopup()">Rejeito</button>
+    </div>
+    </div>
+  </div>
+</div>
+

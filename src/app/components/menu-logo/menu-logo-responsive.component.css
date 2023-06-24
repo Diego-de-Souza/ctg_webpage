@@ -1,0 +1,97 @@
+/*reponsividade - modelos responsivos para tablet de 768px
+e celulares com 480px, o modo landascape deve ser implementado mais para frente*/
+/**modo tablet configuração de 769px
+*/
+@media screen and (max-width:769px){
+
+  #home__slogan > h1 {
+    font-size: 1.8em;
+  }
+
+  #home__slogan > h2 {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .home__links-redes{
+    height: 4em;
+    border: none;
+    height: 3em;
+  }
+
+  .home__links-redes {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .home__links-redes > p {
+    font-size: 0.8em;
+  }
+}
+
+/**modo celular, configuração de 480px
+*/
+@media screen and (max-width:480px){
+  #Home__main{
+    width: 100%;
+  }
+
+  #home__logo{
+    display: flex;
+    width: 20%;
+    align-items: center;
+  }
+
+  #home__logo > img{
+    display: flex;
+    width: 4em;
+    height: 4em;
+
+  }
+
+  #home__slogan {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 0.4em;
+  }
+
+  #home__slogan > h1 {
+    display: flex;
+    width: 6em;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5em 0 0 0;
+    color: rgb(212, 210, 210);
+  }
+
+  #home__slogan > h2 {
+    font-size: 0.8em;
+    width: 9em;
+    text-align: center;
+    color: #fff;
+  }
+
+  #home__links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    padding-top: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .home__links-redes {
+    width: 3em;
+    height: 32px;
+    justify-content: end;
+    padding: 0;
+    border: none;
+    margin: 0;
+
+  }
+
+  .home__links-redes > p {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+/*reponsividade - modelos responsivos para tablet de 768px
+e celulares com 480px, o modo landascape deve ser implementado mais para frente*/
+/**modo celular configuração de 480px
+*/
+@media screen and (max-width: 480px){
+  .awards-container{
+    display: flex;
+    width: 5em;
+  }
+
+  .awards-container > img {
+    display: flex;
+    width: 5em;
+  }
+}

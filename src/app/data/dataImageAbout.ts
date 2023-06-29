@@ -171,7 +171,7 @@ export const dataImageAbout = [
   },
   {
     "id": "35",
-    "local":'../../../assets/img/About/galeria_Patroes/VALDIR DAMBRÓS.jpg',
+    "local":'../../../assets/img/About/galeria_Patroes/VALDIR DAMBROS.jpg',
     "description": 'Valdir Antonio Dambrós - 1998 a 1999'
   },
   {

@@ -15,9 +15,6 @@ export class AwardsComponent implements OnInit {
   @Input()
   pAwards:string='';
 
-  teste:string[] | any=[];
-  teste2:string | any='';
-
   constructor() { }
 
   ngOnInit(): void {

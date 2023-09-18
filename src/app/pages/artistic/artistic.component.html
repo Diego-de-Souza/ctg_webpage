@@ -1,8 +1,12 @@
 <section id="main-artistic">
   <!--<app-submenu-bar></app-submenu-bar>-->
   <h1>DEPARTAMENTO ARTISTICO</h1>
-  <section id="main-artistic__adulta" class="main-artistic-invernadas">
-    <h2>INVERNADA ADULTA</h2>
+  <section id="main-artistic__adulta" class="main-artistic-invernadas" (click)="abrirSecao('1')">
+    <div class="containerArtistic">
+      <h2>INVERNADA ADULTA</h2>
+      <img src="{{imgContainer1}}" alt="" srcset="" id="imgArtistic">
+    </div>
+    
     <section class="conteudo">
       <p>Através de seu grupo de danças adulto “Os Provincianos”, um dos mais conhecidos grupos de danças tradicionais do Estado e reconhecido nacional e internacionalmente, o CTG Rancho da Saudade participa anualmente do maior festival de arte amadora da América Latina: o Encontro de Artes e Tradição Gaúcha – ENART, que acontece na cidade de Santa Cruz do Sul/RS.
       </p>
@@ -101,8 +105,12 @@
       </section>
     </section>
   </section>
-  <section id="main-artistic__veterana" class="main-artistic-invernadas">
-    <h2>INVERNADA VETERANA</h2>
+  <section id="main-artistic__veterana" class="main-artistic-invernadas"  (click)="abrirSecao('2')">
+    <div class="containerArtistic">
+      <h2>INVERNADA VETERANA</h2>
+      <img src="{{imgContainer2}}" alt="" srcset="" id="imgArtistic">
+    </div>
+    
     <section class="conteudo">
       <p>A Invernada Veterana do Rancho é formada basicamente pela Velha Guarda Provinciana. Muitos de seus dançarinos já passaram pela Invernada Adulta e estão há muitos anos em nossa casa.</p>
       <p>O grupo é o atual campeão do Festxiruanos, evento promovido pela 1ª RT.</p>
@@ -171,8 +179,12 @@
       </section>
     </section>
   </section>
-  <section id="main-artistc__juvenil" class="main-artistic-invernadas">
-    <h2>INVERNADA JUVENIL</h2>
+  <section id="main-artistc__juvenil" class="main-artistic-invernadas"  (click)="abrirSecao('3')">
+    <div class="containerArtistic">
+      <h2>INVERNADA JUVENIL</h2>
+      <img src="{{imgContainer3}}" alt="" srcset="" id="imgArtistic">
+    </div>
+    
     <section class="conteudo">
       <p>A Invernada Juvenil do Rancho é a sequência para os dançarinos da Invernada Mirim.</p>
       <p>De 14 a 17 anos, os jovens tradicionalistas participam desta categoria, e em sua vitalidade, conquistam feitos históricos para o Rancho.</p>
@@ -224,8 +236,12 @@
       </section>
     </section>
   </section>
-  <section id="main-artistic__mirim" class="main-artistic-invernadas">
-    <h2>INVERNADA MIRIM</h2>
+  <section id="main-artistic__mirim" class="main-artistic-invernadas"  (click)="abrirSecao('4')">
+    <div class="containerArtistic">
+      <h2>INVERNADA MIRIM</h2>
+      <img src="{{imgContainer4}}" alt="" srcset="" id="imgArtistic">
+    </div>
+    
     <section class="conteudo">
       <p>O CTG Ranho da Saudade sempre preservou e incentivou a Invernada Mirim, que fortalece o futuro das nossas tradições e com o crescimento das crianças, mantém a continuidade das demais invernadas, pois os mirins vão trocando de categoria ao longo de sua trajetória tradicionalista.</p>
       <p> 2008 e 2014 a Invernada Mirim conquistou o 1º lugar em Danças Tradicionais no Festirim.</p>
@@ -272,8 +288,12 @@
       </section>
     </section>
   </section>
-  <section id="main-artistic__xiru" class="main-artistic-invernadas">
-    <h2>INVERNADA XIRU</h2>
+  <section id="main-artistic__xiru" class="main-artistic-invernadas"  (click)="abrirSecao('5')">
+    <div class="containerArtistic">
+      <h2>INVERNADA XIRU</h2>
+    <img src="{{imgContainer5}}" alt="" srcset="" id="imgArtistic">
+    </div>
+    
     <section class="conteudo">
       <p>A Invernada Xiru do Rancho é formada por integrantes acima de 40 anos, que cultivam e preservam o amor à dança tradicional. Com ensaios semanais, o grupo se fortalece a cada ano, participando de diversos rodeios e festivais.</p>
       <p>Dentre suas conquistas atuais, destacamos o 1º lugar no Festxiruanos, 1º lugar no Sarau de Arte Gaúcha, 1º lugar no Rodeio do 35CTG, ocorridos em 2022.</p>
@@ -309,8 +329,12 @@
       </section>
     </section>
   </section>
-  <section id="main-artistic__escolinha" class="main-artistic-invernadas">
-    <h2>ESCOLINHA</h2>
+  <section id="main-artistic__escolinha" class="main-artistic-invernadas"  (click)="abrirSecao('6')">
+    <div class="containerArtistic">
+      <h2>ESCOLINHA</h2>
+    <img src="{{imgContainer6}}" alt="" srcset="" id="imgArtistic">
+    </div>
+    
     <section class="conteudo">
       <p>Em 2014, o CTG Rancho da Saudade formou a Invernada Pré-Mirim. Crianças de 5 a 9 anos participavam desta categoria, que chegou a competir em diversos rodeios e festivais pelo Rio Grande do Sul.</p>
       <p>Destacamos que o primeiro rodeio em que participaram, em Santo Antônio da Patrulha, já lhes trouxe o prêmio de 1º lugar, e marcou o início de uma geração vitoriosa no Rancho.</p>
@@ -333,9 +357,14 @@
         <app-photos-gallery IdGallery="6" localePhoto="2"></app-photos-gallery>
         <app-photos-gallery IdGallery="6" localePhoto="3"></app-photos-gallery>
       </section>
+    </section>
   </section>
-  <section id="main-artistic__individual" class="main-artistic-invernadas">
+  <section id="main-artistic__individual" class="main-artistic-invernadas"  (click)="abrirSecao('7')">
+    <div class="containerArtistic">
       <h2>INDIVIDUAIS</h2>
+      <img src="{{imgContainer7}}" alt="" srcset="" id="imgArtistic">
+    </div>
+      
       <section class="conteudo">
         <p>Os integrantes do CTG Rancho da Saudade participam de diversas modalidades individuais, que fazem parte do departamento artístico da entidade.</p>
         <p>Intérprete vocal, declamação, gaita, Chula, danças gaúchas de salão, conto, poesia, causo gauchesco de galpão, conjunto vocal, violino, violão, entre outras, são algumas das atividades individuais.</p>
@@ -373,5 +402,6 @@
         </section>
       </section>
   </section>
+  
 </section>
 

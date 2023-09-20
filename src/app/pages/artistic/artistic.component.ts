@@ -55,7 +55,7 @@ export class ArtisticComponent implements OnInit {
     const estiloContainer6= document.getElementById('main-artistic__escolinha')?.style;
     const estiloContainer7= document.getElementById('main-artistic__individual')?.style;
 
-      if(this.larguraTela >769){
+      if(this.larguraTela > 769){
         if(secao == "1"){
         if(this.estadoImg1 == false){
           this.imgContainer1 = "../../../assets/img/Artistic/diversas/sinal-de-menos.png";
@@ -80,7 +80,7 @@ export class ArtisticComponent implements OnInit {
           }
         }else if(secao == "3"){
           if(this.estadoImg3 == false){
-            this.imgContainer3 = "../../../assets/img/Artistic/diversas/sinal-de-menos.pngg";
+            this.imgContainer3 = "../../../assets/img/Artistic/diversas/sinal-de-menos.png";
             this.estadoImg3 = true;
             if(estiloContainer3 != undefined){estiloContainer3.height="auto";};
           }else{
@@ -114,9 +114,9 @@ export class ArtisticComponent implements OnInit {
             this.estadoImg6 = true;
             if(estiloContainer6 != undefined){estiloContainer6.height="auto";};
           }else{
-            this.imgContainer4 = "../../../assets/img/Artistic/diversas/sinal-de-mais.png";
-            this.estadoImg4 = false;
-            if(estiloContainer4 != undefined){estiloContainer4.height="80px";};
+            this.imgContainer6 = "../../../assets/img/Artistic/diversas/sinal-de-mais.png";
+            this.estadoImg6 = false;
+            if(estiloContainer6 != undefined){estiloContainer6.height="80px";};
           }
         }else if(secao == "7"){
           if(this.estadoImg7 == false){
@@ -154,7 +154,7 @@ export class ArtisticComponent implements OnInit {
             }
           }else if(secao == "3"){
             if(this.estadoImg3 == false){
-              this.imgContainer3 = "../../../assets/img/Artistic/diversas/sinal-de-menos.pngg";
+              this.imgContainer3 = "../../../assets/img/Artistic/diversas/sinal-de-menos.png";
               this.estadoImg3 = true;
               if(estiloContainer3 != undefined){estiloContainer3.height="auto";};
             }else{
@@ -188,9 +188,9 @@ export class ArtisticComponent implements OnInit {
               this.estadoImg6 = true;
               if(estiloContainer6 != undefined){estiloContainer6.height="auto";};
             }else{
-              this.imgContainer4 = "../../../assets/img/Artistic/diversas/sinal-de-mais.png";
-              this.estadoImg4 = false;
-              if(estiloContainer4 != undefined){estiloContainer4.height="3em";};
+              this.imgContainer6 = "../../../assets/img/Artistic/diversas/sinal-de-mais.png";
+              this.estadoImg6 = false;
+              if(estiloContainer6 != undefined){estiloContainer6.height="3em";};
             }
           }else if(secao == "7"){
             if(this.estadoImg7 == false){

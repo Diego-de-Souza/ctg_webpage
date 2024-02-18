@@ -5,14 +5,19 @@ e celulares com 480px, o modo landascape deve ser implementado mais para frente*
 @media screen and (max-width:769px){
 
   #section_intitutional_video {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
     width: 100vw;
     height: 100vh;
 
   }
 
-  iframe{
+  iframe, #img_galeria_inicial{
     width: 90vw;
     height: 60vh;
   }
@@ -22,19 +27,25 @@ e celulares com 480px, o modo landascape deve ser implementado mais para frente*
 @media screen and (max-width:480px){
   #institutional {
     height: 45vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     background-color: #76b897;
     margin: 30px 0 20px 0;
     background-image: url('../../../assets/img/Home/imagem_do_início.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
-    background-color: aqua;
+    background-color: #76b897;
   }
 
-  iframe{
+  iframe, #img_galeria_inicial{
     width: 90vw;
     height: 40vh;
   }

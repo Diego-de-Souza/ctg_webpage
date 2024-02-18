@@ -120,6 +120,22 @@ export const dataInvernadas = [
       "photo":"../../../assets/img/Artistic/invernadas_adulta/galeriaInvernadaAdulta/adulta9-300.jpg",
       "description":""
       },
+      {"f":"10",
+      "photo":"../../../assets/img/Artistic/invernadas_adulta/galeriaInvernadaAdulta/adulta2023.jpg",
+      "description":""
+      },
+      {"f":"11",
+      "photo":"../../../assets/img/Artistic/invernadas_adulta/galeriaInvernadaAdulta/adulta20231.jpg",
+      "description":""
+      },
+      {"f":"12",
+      "photo":"../../../assets/img/Artistic/invernadas_adulta/galeriaInvernadaAdulta/adulta20232.jpg",
+      "description":""
+      },
+      {"f":"13",
+      "photo":"../../../assets/img/Artistic/invernadas_adulta/galeriaInvernadaAdulta/adulta20233.jpg",
+      "description":""
+      }
     ]
   },
   {
@@ -214,6 +230,22 @@ export const dataInvernadas = [
       "photo":"../../../assets/img/Artistic/invernadas_veterana/galeriaInvernadaVeterana/veterana7-300.jpg",
       "description":""
       },
+      {"f":"8",
+      "photo":"../../../assets/img/Artistic/invernadas_veterana/galeriaInvernadaVeterana/veterana2023.jpg",
+      "description":""
+      },
+      {"f":"9",
+      "photo":"../../../assets/img/Artistic/invernadas_veterana/galeriaInvernadaVeterana/veterana20231.jpg",
+      "description":""
+      },
+      {"f":"10",
+      "photo":"../../../assets/img/Artistic/invernadas_veterana/galeriaInvernadaVeterana/veterana20232.jpg",
+      "description":""
+      },
+      {"f":"11",
+      "photo":"../../../assets/img/Artistic/invernadas_veterana/galeriaInvernadaVeterana/veterana20233.jpg",
+      "description":""
+      }
     ]
   },
   {
@@ -301,6 +333,18 @@ export const dataInvernadas = [
       "photo":"../../../assets/img/Artistic/invernadas_juvenil/galeriaInvernadaJuvenil/juvenil10-300.jpg",
       "description":""
       },
+      {"f":"10",
+      "photo":"../../../assets/img/Artistic/invernadas_juvenil/galeriaInvernadaJuvenil/juvenil2023.jpg",
+      "description":""
+      },
+      {"f":"11",
+      "photo":"../../../assets/img/Artistic/invernadas_juvenil/galeriaInvernadaJuvenil/juvenil20231.jpg",
+      "description":""
+      },
+      {"f":"12",
+      "photo":"../../../assets/img/Artistic/invernadas_juvenil/galeriaInvernadaJuvenil/juvenil20232.jpg",
+      "description":""
+      }
     ]
   },
   {
@@ -383,6 +427,22 @@ export const dataInvernadas = [
       {"f":"10",
       "photo":"../../../assets/img/Artistic/invernadas_mirim/galeriaInvernadaMirim/mirim10-300.jpg",
       "description":""
+      },
+      {"f":"10",
+      "photo":"../../../assets/img/Artistic/invernadas_mirim/galeriaInvernadaMirim/mirim2023.jpg",
+      "description":""
+      },
+      {"f":"11",
+      "photo":"../../../assets/img/Artistic/invernadas_mirim/galeriaInvernadaMirim/mirim20231.jpg",
+      "description":""
+      },
+      {"f":"12",
+      "photo":"../../../assets/img/Artistic/invernadas_mirim/galeriaInvernadaMirim/mirim20232.jpg",
+      "description":""
+      },
+      {"f":"13",
+      "photo":"../../../assets/img/Artistic/invernadas_mirim/galeriaInvernadaMirim/mirim20233.jpg",
+      "description":""
       }
 
     ]
@@ -444,6 +504,22 @@ export const dataInvernadas = [
       "photo":"../../../assets/img/Artistic/invernadas_xiru/galeriaInvernadaXiru/xiru6-300.jpg",
       "description":""
       },
+      {"f":"7",
+      "photo":"../../../assets/img/Artistic/invernadas_xiru/galeriaInvernadaXiru/xiru2023.jpg",
+      "description":""
+      },
+      {"f":"8",
+      "photo":"../../../assets/img/Artistic/invernadas_xiru/galeriaInvernadaXiru/xiru20231.jpg",
+      "description":""
+      },
+      {"f":"9",
+      "photo":"../../../assets/img/Artistic/invernadas_xiru/galeriaInvernadaXiru/xiru20232.jpg",
+      "description":""
+      },
+      {"f":"10",
+      "photo":"../../../assets/img/Artistic/invernadas_xiru/galeriaInvernadaXiru/xiru20233.jpg",
+      "description":""
+      }
     ]
   },
   {
@@ -499,9 +575,21 @@ export const dataInvernadas = [
       "description":""
       },
       {"f":"4",
-      "photo":"../../../assets/img/Comon/img_default.png",
+      "photo":"../../../assets/img/Artistic/escolinha/escolinha2023.jpg",
       "description":""
       },
+      {"f":"5",
+      "photo":"../../../assets/img/Artistic/escolinha/escolinha20231.jpg",
+      "description":""
+      },
+      {"f":"6",
+      "photo":"../../../assets/img/Artistic/escolinha/escolinha20232.jpg",
+      "description":""
+      },
+      {"f":"7",
+      "photo":"../../../assets/img/Artistic/escolinha/escolinha20233.jpg",
+      "description":""
+      }
     ]
   },
   {
@@ -601,6 +689,22 @@ export const dataInvernadas = [
       "photo":"../../../assets/img/Artistic/galeria_individual/individuais16-300.jpg",
       "description":""
       },
+      {"f":"17",
+      "photo":"../../../assets/img/Artistic/galeria_individual/individuais2023.jpg",
+      "description":""
+      },
+      {"f":"18",
+      "photo":"../../../assets/img/Artistic/galeria_individual/individuais20231.jpg",
+      "description":""
+      },
+      {"f":"19",
+      "photo":"../../../assets/img/Artistic/galeria_individual/individuais20232.jpg",
+      "description":""
+      },
+      {"f":"20",
+      "photo":"../../../assets/img/Artistic/galeria_individual/individuais20233.jpg",
+      "description":""
+      }
     ]
   },
   {

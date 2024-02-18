@@ -1,0 +1,149 @@
+#main-locacao {
+    width: 100%;
+    flex-direction: column;
+}
+
+#main-locacao_capa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #76b897;
+    background-image: url('../../../assets/img/locacao/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-locacao__articles{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    background-color: #ff7f50;
+}
+h1{
+    display: block;
+    color: #fff;
+    font-size: 4rem;
+    background-color: #76b897;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-shadow: 0px 0px 8px rgb(211, 247, 11)0;
+    box-shadow: 0 0 8px #ff7f50;
+}
+h2 {
+    display: flex;
+    width: 100%;
+    padding: 3rem  0 2rem 0;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    background-color: #fff;
+}
+
+h3 {
+    display: flex;
+    width: 100%;
+    margin: 2rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.5em
+}
+
+h4{
+    font-size: 1.5em;
+    padding: 1em 0 0.5em 0;
+}
+
+p{
+    font-size: 1em;
+    line-height: 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-locacao__conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.main-locacao__conteudo__img-container{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
+
+.main-locacao__conteudo__img{
+    display: block;
+    width: 35rem;
+    border-radius: 8px;
+}
+
+.main-locacao__conteudo__textual {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.btn__main-locacao {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    border: none;
+    box-shadow: 0.5px 0.5px 4px #030303;
+    margin-top: 2em;
+    background-color: #76b897;
+}
+
+@keyframes anima {
+    0%{
+        transform: scale(1);
+        box-shadow: 0.5px 0.5px 4px #030303;
+    }
+    100%{
+        transform: scale(1.05);
+        box-shadow: 0.5px 0.5px 6px #878787;
+    }
+}
+
+.btn__main-locacao {
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.main-locacao__conteudo__galeria__img{
+    display: flex;
+    margin-top: 2em;
+    box-shadow: 0.5px 0.5px 8px #030303;
+}
+
+.locacao_resp_galeria_fotos{
+    display: flex;
+        width: 100%;
+
+        height: 50px;
+        background-color: yellow;
+}
+
+.main-locacao__conteudo__galeria_resp{
+    display: none;
+}
+
+#main-locacao__campeirodoRacho_resp{
+    display: none;
+}

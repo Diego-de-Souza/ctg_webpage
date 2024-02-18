@@ -21,6 +21,13 @@
         <a >SOBRE</a>
       </li>
       <li class="menu-bar__itens-menu"
+        [routerLink]="['/Locacao']"
+        [routerLinkActive]="['actived']"
+        [routerLinkActiveOptions]="{exact: true}"
+        (click)="fechaSubmenu()">
+        <a >LOCAÇÃO</a>
+      </li>
+      <li class="menu-bar__itens-menu"
         [routerLink]="['/contato']"
         [routerLinkActive]="['actived']"
         [routerLinkActiveOptions]="{exact: true}"
@@ -81,6 +88,13 @@
         [routerLinkActiveOptions]="{exact: true}"
         (click)="fechaSubmenu()">
       <a>Sobre</a></li>
+      <li class="menu-resp-menu-li"
+        [routerLink]="['/Locacao']"
+        [routerLinkActive]="['actived']"
+        [routerLinkActiveOptions]="{exact: true}"
+        (click)="fechaSubmenu()">
+        <a >LOCAÇÃO</a>
+      </li>
       <li class="menu-resp-menu-li"
         [routerLink]="['/contato']"
         [routerLinkActive]="['actived']"

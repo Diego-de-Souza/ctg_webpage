@@ -16,12 +16,12 @@ export class SliderShowComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.imagemSlider = "url('../../../assets/img/Home/img_slider/img_capa_7.jpeg')";
+    this.imagemSlider = "url('../../../assets/img/Home/img_slider/img_capa_7.jpg')";
 
     setInterval(()=>{this.count++;
       const result = dataImageSlider.filter(
         article => article.id == (this.count.toString()))[0]
-        if(this.count==7){
+        if(this.count==8){
           this.count=0;
         }
         this.imagemSlider = `url('${result.local}')`;

@@ -1,5 +1,10 @@
 #main-campeira{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-top: 50px;
   width: 98.5vw;
@@ -10,12 +15,16 @@
   text-align: center;
   padding: 2em 0;
   margin: 0;
-
   background-color: #cf8e55;
 }
 
 .main-campeira-invernadas {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background-color: #cf8e55;
   width: 100%;
@@ -27,7 +36,6 @@ h2{
   width: 100%;
   text-align: center;
   padding: 1em 0;
-
   background-color: #fff;
 }
 
@@ -40,14 +48,22 @@ p {
 }
 
 .main-campeira__campeira-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: #76b897;
 }
 
 .main-campeira__campeira-gallery__photos {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(16em, 1fr));
   margin-top: 2em;

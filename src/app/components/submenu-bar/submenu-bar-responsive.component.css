@@ -12,25 +12,35 @@
   }
 
   .subMenuBar-main__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     padding: 0;
-
     background-color: rgb(118,184,151);
     border-bottom: 2px  solid #fff;
   }
 
   .subMenuBar-main__nav-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     width: 100%;
     list-style: none;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -ms-flex-line-pack: justify;
     align-content: space-between;
     margin: 0;
   }
 
   .subMenuBar-main__nav-ul-li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-transform: uppercase;
     font-weight: 600;

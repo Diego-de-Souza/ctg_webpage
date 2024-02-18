@@ -46,14 +46,22 @@
   }
 
   .main-campeira__campeira-gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     background-color: #76b897;
   }
 
   .main-campeira__campeira-gallery__photos {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(8em, 1fr));
     margin-top: 1.4em;

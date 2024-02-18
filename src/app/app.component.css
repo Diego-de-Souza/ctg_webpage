@@ -9,11 +9,12 @@ body{
 }
 
 main{
-  width: 100vw;
+  display: block;
+  width: 100%;
 }
 
 header {
-  width: 100vw;
+  width: 100%;
 }
 
 footer{

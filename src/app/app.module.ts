@@ -10,6 +10,7 @@ import {HomeModule} from './modules/home/home.module';
 import {AboutModule} from './modules/about/about.module';
 import {ArtisticModule} from './modules/artistic/artistic.module';
 import {ContatoModule} from './modules/contato/contato.module';
+import {LocacaoModule} from './modules/locacao/locacao.module';
 
 import {MenuLogoComponent} from './components/menu-logo/menu-logo.component';
 import {MenuBarComponent} from './components/menu-bar/menu-bar.component';
@@ -38,6 +39,7 @@ const routes: Routes = [
     AboutModule,
     ArtisticModule,
     ContatoModule,
+    LocacaoModule,
     RouterModule.forRoot(routes)
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],

@@ -11,10 +11,17 @@ body{
 
 #main{
   width: 98.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  background-image: url('../../../assets/img/Home/imagem_CTG.jpg');
+  background-image: url('../../../assets/img/Home/imagem_fundo.jpg');
   background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
@@ -22,13 +29,20 @@ body{
 }
 
 #main__article-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 20px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 #main__article-main{
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(16em,1fr));
   width: 98vw;

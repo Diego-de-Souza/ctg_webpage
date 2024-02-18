@@ -25,6 +25,10 @@ export const dataImageSlider=[
   },
   {
     "id":"7",
-    "local": "../../../assets/img/Home/img_slider/img_capa_7.jpeg"
+    "local": "../../../assets/img/Home/img_slider/img_capa_7.jpg"
+  },
+  {
+    "id":"8",
+    "local": "../../../assets/img/Home/img_slider/img_capa_8.jpg"
   },
 ]

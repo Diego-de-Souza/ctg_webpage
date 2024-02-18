@@ -1,10 +1,13 @@
 .awards-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 10em;
-
 }
 
 .awards-container > img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 10em;
 }

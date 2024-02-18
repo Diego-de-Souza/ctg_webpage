@@ -82,22 +82,22 @@ export const dataImageAbout = [
   {
     "id": "17",
     "local":'../../../assets/img/About/galeria_patronagem/Adriano-300.jpg',
-    "description": 'Adriano Cabral - Capataz Artístico'
+    "description": 'Adriano Cabral de Oliveira- Patrão'
   },
   {
     "id": "18",
-    "local":'../../../assets/img/About/galeria_patronagem/Angela_Escolhinha-300.jpg',
-    "description": 'Ângela Bortolozo - Capataz Cultural'
+    "local":'../../../assets/img/About/galeria_patronagem/Joao_Xirudasfalas-300.jpg',
+    "description": 'João Batista Rodrigues Dutra - Vice Patrão'
   },
   {
     "id": "19",
-    "local":'../../../assets/img/About/galeria_patronagem/DiegoTimm-300.jpg',
-    "description": 'Diego Timm - Vice-patrão e Capataz Social'
+    "local":'../../../assets/img/About/galeria_patronagem/Angela_Escolhinha-300.jpg',
+    "description": 'Ângela Bortolozo- Capataz Cultural'
   },
   {
     "id": "20",
-    "local":'../../../assets/img/About/galeria_patronagem/Felipe_Comunicacao-300.jpg',
-    "description": 'Felipe Paim - Comunicação'
+    "local":'../../../assets/img/About/galeria_patronagem/claudia.jpg',
+    "description": 'Cláudia Campos - Capataz de Patrimônio'
   },
   {
     "id": "21",
@@ -117,7 +117,7 @@ export const dataImageAbout = [
   {
     "id": "24",
     "local":'../../../assets/img/About/galeria_patronagem/Marcelo_Conselheiro-300.jpg',
-    "description": 'Marcelo Boff - Presidente do Conselho de Vaqueanos'
+    "description": 'Marcelo Boff - Presidente do Conselho'
   },
   {
     "id": "25",

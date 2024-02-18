@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "ctg-rancho-da-saudade"
-  }
+    "default": "ctg-ranchodasaudade",
+    "n": "ctg-ranchodasaudade"
+  },
+  "targets": {},
+  "etags": {}
 }

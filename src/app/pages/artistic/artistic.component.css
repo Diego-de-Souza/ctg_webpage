@@ -1,5 +1,10 @@
 #main-artistic{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 98.5vw;
 }
@@ -9,12 +14,16 @@
   text-align: center;
   padding: 2em 0;
   margin: 0;
-
   background-color: #cf8e55;
 }
 
 .main-artistic-invernadas {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background-color: #cf8e55;
   width: 100%;
@@ -23,9 +32,16 @@
 }
 
 .containerArtistic{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   background-color: #fff;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -34,7 +50,6 @@ h2{
   width: 100%;
   text-align: center;
   padding: 1em 0;
-
   background-color: #fff;
 }
 
@@ -59,13 +74,21 @@ p {
 }
 
 .main-artistic__adulta-awards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
-
   background-image: url('../../../assets/img/Comon/imagem_CTG.jpg');
   background-position: 100%;
   background-repeat: no-repeat;
@@ -74,6 +97,7 @@ p {
 }
 
 .main-artistic__adulta-awards__trophies{
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(10em, 1fr));
   margin-top: 2em;
@@ -86,7 +110,12 @@ p {
 }
 
 .main-artistic-invernadas-coordenacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
   padding-bottom: 2em;
@@ -101,22 +130,35 @@ h3 {
 }
 
 .main-artistic-invernadas-coordenacao__descricao {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 100%;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
 .main-artistic__adulta-gallery {
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: #76b897;
   overflow: hidden;
 }
 
 .main-artistic__adulta-gallery__photos {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(16em, 1fr));
   margin-top: 2em;

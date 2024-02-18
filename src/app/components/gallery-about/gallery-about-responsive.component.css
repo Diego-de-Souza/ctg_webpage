@@ -4,6 +4,7 @@ e celulares com 480px, o modo landascape deve ser implementado mais para frente*
 */
 @media screen and (max-width:480px){
   #gallery-About__patronos{
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(8em, 1fr));
     margin-top: 2em;
@@ -13,6 +14,7 @@ e celulares com 480px, o modo landascape deve ser implementado mais para frente*
   }
 
   #gallery-About__photos{
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(8em, 1fr));
     margin-top: 2em;
@@ -28,6 +30,7 @@ e celulares com 480px, o modo landascape deve ser implementado mais para frente*
   }
 
   #gallery-About__photos_history {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(8em, 1fr));
     margin-top: 2em;

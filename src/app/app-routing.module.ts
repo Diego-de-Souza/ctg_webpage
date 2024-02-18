@@ -8,6 +8,7 @@ import {CulturalComponent} from './pages/cultural/cultural.component';
 import {ContatoComponent} from './pages/contato/contato.component';
 import {HomeComponent} from './pages/home/home.component';
 import {PrivacyPolicyComponent} from './pages/privacy-policy/privacy-policy.component';
+import {LocacaoComponent} from './pages/locacao/locacao.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,10 @@ const routes: Routes = [
   {
     path: 'Politica_de_privacidade',
     component: PrivacyPolicyComponent
+  },
+  {
+    path: 'Locacao',
+    component: LocacaoComponent
   }
 ];
 

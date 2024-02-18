@@ -4,11 +4,15 @@ e celulares com 480px, o modo landascape deve ser implementado mais para frente*
 */
 @media screen and (max-width: 480px){
   .awards-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 5em;
   }
 
   .awards-container > img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 5em;
   }

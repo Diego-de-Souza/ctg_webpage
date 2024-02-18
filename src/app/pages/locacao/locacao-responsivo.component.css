@@ -1,0 +1,79 @@
+@media screen and (max-width:480px){
+    
+    #main-locacao_capa {
+        height: 40vh;
+        background-color: #76b897;
+        background-position: 50% 50%;
+    }
+    h1{
+        font-size: 1em;
+        background-color: #76b897;
+        text-align: center;
+        padding: 0.3em;
+        border-radius: 0.5em;
+        text-shadow: 0px 0px 8px rgb(211, 247, 11)0;
+        box-shadow: 0 0 8px #ff7f50;
+    }
+    h3 {
+        margin: 0;
+    }
+    .main-locacao__conteudo {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 1em 0px;
+    }
+
+    .main-locacao__conteudo__galeria{
+        display: none;
+    }
+
+    .main-locacao__conteudo__img{
+        width: 20em;
+    }
+
+    .main-locacao__conteudo__textual {
+        width: 90%;
+        text-align: center;
+    }
+
+    #main-locacao__campeirodoRacho_resp{
+        display: flex;
+    }
+
+    #main-locacao__campeirodoRacho{
+        display: none;
+    }
+
+    .main-locacao__conteudo__img-container2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 1em;
+    }
+
+    .locacao_resp_galeria_fotos{
+        display: flex;
+        width: 100%;
+
+        height: 50px;
+        background-color: yellow;
+    }
+    .main-locacao__conteudo__galeria_resp{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main-locacao__conteudo__galeria_resp__section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-locacao__conteudo__galeria_resp__section_photo{
+        display: block;
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 1em;
+    }
+}

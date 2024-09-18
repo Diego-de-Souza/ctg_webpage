@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
+    "bootstrap": "^5.3.3",
     "detect-it": "^4.0.1",
     "firebase": "^10.8.0",
     "rxjs": "~7.5.0",
@@ -26,7 +27,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.1.2",
-    "@angular/cli": "~14.1.2",
+    "@angular/cli": "^14.1.2",
     "@angular/compiler-cli": "^14.1.0",
     "@types/jasmine": "~4.0.0",
     "jasmine-core": "~4.2.0",

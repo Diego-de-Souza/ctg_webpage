@@ -1,5 +1,5 @@
 <section track-scroll>
-  <nav id="menu-bar" [ngStyle]="{'top':posicaoMenuSuspenso, 'position':posicaoMenuFixo}" >
+  <nav id="menu-bar" [ngStyle]="{'top':posicaoMenuSuspenso, 'position':posicaoMenuFixo, 'z-index':indexMenu}" >
     <div id="menu-bar__icone-hamburgue" (click)="abreMenuHamburgue()">
       <img id="menu-bar__imagem"
         src="{{imagemMenu}}" alt="Icone hamburgue do menu" srcset="">
@@ -126,5 +126,3 @@
     </ul>
   </nav>
 </section>
-
-

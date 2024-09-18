@@ -1,8 +1,13 @@
 <section id="institutional">
-  <div id="section_intitutional_video">
-    <!--
-    <iframe src="https://www.youtube.com/embed/KR-BR6YtRQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    -->
-    <img src="../../../assets/img/Home/foto_montagem_inicial.png" alt="" srcset="" id="img_galeria_inicial">
-  </div>
+    <div id="carousel">
+      <div *ngFor="let image of images; let i = index" [ngClass]="getImageClass(i)">
+        <img [src]="image" alt="Carousel image {{i + 1}}" />
+      </div>
+    </div>
+  
+    <div class="buttons">
+      <button id="prev" (click)="moveToSelected('prev')" class="btn_acess">Anterior</button>
+      <dir class="barraCentral"></dir>
+      <button id="next" (click)="moveToSelected('next')" class="btn_acess">Próxima</button>
+    </div>
 </section>

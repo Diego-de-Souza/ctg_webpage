@@ -50,7 +50,16 @@
 
 .menu-bar__itens-submenu{
   font-weight: 400;
+  width: 100%;
+  margin-top: 1em;
+  text-align: center;
+}
+.menu-bar__itens-menu:hover, .menu-bar__itens-submenu:hover{
+  background-color: #e66e0574;
+}
 
+.menu-bar__itens-submenu:hover{
+  border-radius: 1.5em;
 }
 
 a {
@@ -67,7 +76,8 @@ a {
   -ms-flex-align: center;
   align-items: center;
   padding: 0;
-  background-color: #76b897;
+  border-radius: 0em 0em 1.5em 1.5em;
+  background-color: #76b89799;
 }
 
 .menu-bar__itens-submenu{
@@ -83,6 +93,7 @@ a {
   -ms-flex-direction: row;
   flex-direction: row;
   cursor: pointer;
+  padding-right: 1em;
 }
 
 #seta {

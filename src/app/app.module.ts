@@ -29,7 +29,7 @@ const routes: Routes = [
     MenuBarComponent,
     FooterDefautComponent,
     WhatsappComponent,
-    PopupComponent
+    PopupComponent,
   ],
   imports: [
     CommonModule,

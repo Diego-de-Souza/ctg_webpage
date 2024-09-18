@@ -17,6 +17,7 @@ export class MenuBarComponent implements OnInit {
 
   posicaoMenuSuspenso:string='';
   posicaoMenuFixo:string='';
+  indexMenu:number=0;
 
   //variavel de altura do menu
   alturaMenu:string = '3em';
@@ -55,9 +56,11 @@ export class MenuBarComponent implements OnInit {
         if (rect.top >= window.pageYOffset ) {
           this.posicaoMenuSuspenso='auto';
           this.posicaoMenuFixo='relative'
+          this.indexMenu=0;
         }else{
           this.posicaoMenuSuspenso='0px';
           this.posicaoMenuFixo='fixed';
+          this.indexMenu=999999;
         }
       } else {
 

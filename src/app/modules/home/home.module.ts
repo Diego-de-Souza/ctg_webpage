@@ -8,6 +8,7 @@ import {CardArticleComponent} from '../../components/card-article/card-article.c
 import {MidiaInstitucionalComponent} from '../../components/midia-institucional/midia-institucional.component';
 import {SpotifyComponent} from '../../components/spotify/spotify.component';
 import {ParceirosComponent} from '../../components/parceiros/parceiros.component';
+import {WidgetsInstaComponent} from '../../components/widgets-insta/widgets-insta.component';
 
 @NgModule({
   declarations: [
@@ -16,14 +17,16 @@ import {ParceirosComponent} from '../../components/parceiros/parceiros.component
     CardArticleComponent,
     MidiaInstitucionalComponent,
     SpotifyComponent,
-    ParceirosComponent
+    ParceirosComponent,
+    WidgetsInstaComponent
   ],exports:[
     HomeComponent,
     SliderShowComponent,
     CardArticleComponent,
     MidiaInstitucionalComponent,
     SpotifyComponent,
-    ParceirosComponent
+    ParceirosComponent,
+    WidgetsInstaComponent
   ],
   imports: [
     CommonModule

@@ -1,5 +1,26 @@
-<section class="container_wigdet">
+<section class="container_widget">
     <h2>Nosso Instagram</h2>
-    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-     <iframe src="//lightwidget.com/widgets/5245b978390f525b80401be332c5ea85.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;height:100%;overflow:hidden;"></iframe>
+    <div class="instagram-button-container">
+        <a href="https://www.instagram.com/ctgranchodasaudade/" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="instagram-button">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+                 alt="Ícone do Instagram"
+                 class="instagram-icon">
+            Siga no Instagram
+        </a>
+    </div>
+    
+    <!-- Widget do Instagram Responsivo -->
+    <div #widgetContainer class="instagram-embed-container">
+        <iframe #widgetIframe
+                src="https://snapwidget.com/embed/1093241" 
+                class="snapwidget-widget" 
+                allowtransparency="true" 
+                frameborder="0" 
+                scrolling="no" 
+                aria-label="Fotos do Instagram"
+                loading="lazy"></iframe>
+    </div>
 </section>
